@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Titillium Web', sans-serif;
+        }
+
+        nav ul li{
+            margin: 15px 50px;
+        }
+
+        nav ul a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul a:hover{
+            color:white;
+            border: 1px solid black;
+            background-color: black;
+        }
+
+        section>div>div{
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- header section starts -->
+    <header style="align-items:center">
+        <nav style="border: 2px solid black;">
+            <ul style="display: flex; list-style:none; justify-content: center;">
+                <a href="index.html"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="gallery.html"><li>Gallery</li></a>
+                <a href="feedback.html"><li>Feedback</li></a>
+            </ul>
+        </nav>
+    </header>
+    <!-- header section ends -->
+
+    <!-- main section starts -->
+    <section style=" width:70%; margin: auto; margin-top: 40px; padding: 30px;">
+        
+        <h1 style="text-align:center; color: blue;">Image Gallery</h1>
+        
+        <div style=" display:flex; margin: auto; margin-top: 15px; width: 75%; flex-direction: column;  border: 2px solid black; height:fit-content;">
+            <div style=" width:100%; height: 33%; display: flex;">
+                <div style="width: 50%; padding:15px;"><img src="img2.webp" alt="" width="100%;"></div>
+                
+                <div style="width:50%; padding:15px;"><img src="img3.webp" alt=""  width="100%;"></div>
+            </div>
+            
+            <div style=" width:100%; height: 33%; display: flex;">
+                <div style="width: 50%; padding:15px;"><img src="img4.jpg" alt="" width="100%;"></div>
+                
+                <div style="width:50%; padding:15px;"><img src="img6.webp" alt=""  width="100%;"></div>
+            </div>
+
+            <div style=" width:100%; height: 33%; display: flex;">
+                <div style="width: 100%;padding:15px;"><img src="img5.webp" alt="" width="100%;"></div>
+                
+            </div>
+
+
+        </div>
+    </section>
+    <!-- main section ends -->
+
+</body>
+</html>
